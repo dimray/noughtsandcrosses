@@ -398,13 +398,14 @@ html {
 }
 
 h1 {
-  color: blue;
+  color: rgba(0, 0, 255, 0.8);
   font-size: 5rem;
+  font-weight: bold;
 }
 
 h2 {
-  margin-top: 50px;
-
+  margin-top: 30px;
+  font-weight: bold;
 }
 
 .container {
@@ -420,27 +421,37 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  border: 1px black solid;
-  margin: 40px;
+  border: 1px darkslategrey solid;
+  margin: 10px 0px 40px 0;
 }
 
 .square {
   width: 150px;
   height: 150px;
   background-color: lightgray;
-  border: black solid 1px;
+  border: darkslategrey solid 1px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: bold;
+  color: darkslategrey
 }
+
 
 .btn {
   padding: 10px 40px;
   border-radius: 5px;
   font-size: xx-large;
+  font-weight: bold;
   border: none;
-  color: blue;
+  color: rgba(0, 0, 255, 0.8);
   background-color: var(--repeated-colour);
 }
 
-.btn:hover {
-  background-color: rgba(0, 0, 255, 0.581);
-  color: white;
+.btn:hover,
+.square:hover {
+  background-color: rgba(0, 0, 255, 0.3);
+  color: rgb(212, 212, 212);
 }
