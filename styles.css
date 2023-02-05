@@ -398,7 +398,7 @@ html {
 }
 
 h1 {
-  color: rgba(0, 0, 255, 0.8);
+  color: rgba(0, 0, 255, 0.7);
   font-size: 5rem;
   font-weight: bold;
 }
@@ -452,6 +452,11 @@ h2 {
 
 .btn:hover,
 .square:hover {
+  background-color: lightgoldenrodyellow;
+  color: rgba(0, 0, 255, 0.7);
+}
+
+.clicked {
   background-color: rgba(0, 0, 255, 0.3);
   color: rgb(212, 212, 212);
 }
